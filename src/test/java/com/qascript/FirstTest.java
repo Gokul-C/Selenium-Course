@@ -16,7 +16,6 @@ public class FirstTest {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--headless");
         options.addArguments("--no-sandbox");
-        options.setExperimentalOption("prefs", chromePrefs);
         options.addArguments("--window-size=1920x1080");
         options.addArguments("--remote-allow-origins=*"); 
         options.addArguments("--disable-dev-shm-usage");
